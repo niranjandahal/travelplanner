@@ -1,0 +1,18 @@
+[
+    {
+        "image": "assets/images/united-states.jpg",
+        "title": "Canada"
+    },
+    {
+        "image": "assets/images/greece.jpg",
+        "title": "Italy"
+    },
+    {
+        "image": "assets/images/Italy.jpg",
+        "title": "Greece"
+    },
+    {
+        "image": "assets/images/canada.jpg",
+        "title": "United States"
+    }
+]
