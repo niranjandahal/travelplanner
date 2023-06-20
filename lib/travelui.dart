@@ -22,7 +22,7 @@ class _traveluiState extends State<travelui> {
     'assets/images/united-states.jpg'
   ];
   final List dest_name = ['canada', 'greece', 'italy', 'united-states'];
-  final List hotels_names = ['hotel1', 'hotel2', 'hotel3', 'hotel4'];
+  final List hotels_names = ['5 star', '4.5 star', '4 star', '5 star'];
 
   final List hotel_name = [
     'assets/images/hotelone.jpg',
@@ -73,9 +73,9 @@ class _traveluiState extends State<travelui> {
                   ),
                   Container(
                     height: 50,
-                    margin: EdgeInsets.only(left: 40, right: 40, bottom: 20),
+                    margin: EdgeInsets.only(left: 0, right: 0, bottom: 20),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
+                      borderRadius: BorderRadius.circular(10),
                       color: Colors.white,
                     ),
                     child: TextField(
@@ -113,8 +113,9 @@ class _traveluiState extends State<travelui> {
                     padding: EdgeInsets.all(20),
                     height: 350,
                     child: CarouselSlider(
+
                       options: CarouselOptions(
-                        viewportFraction: 0.5,
+                        viewportFraction: 0.75,
                         initialPage: 0,
                         reverse: false,
                         autoPlayCurve: Curves.fastOutSlowIn,
@@ -187,7 +188,7 @@ class _traveluiState extends State<travelui> {
                     // height: 350,
                     child: CarouselSlider(
                       options: CarouselOptions(
-                        viewportFraction: 0.5,
+                        viewportFraction: 0.75,
                         initialPage: 0,
                         reverse: false,
                         autoPlayCurve: Curves.fastOutSlowIn,
